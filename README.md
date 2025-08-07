@@ -328,7 +328,7 @@
                         </div>
                         <div class="flex">
                             <span class="font-semibold text-gray-800 w-24">所在地</span>
-                            <span class="text-gray-600">福岡県福岡市中央区那の川2-7-3 702号</span>
+                            <span class="text-gray-600">福岡県福岡市中央区那の川2-7-3 </span>
                         </div>
                         <div class="flex">
                             <span class="font-semibold text-gray-800 w-24">連絡先</span>
@@ -440,12 +440,13 @@
 </body>
 </html>
 
-  <footer>
-    &copy; 2025 合同会社D'zero. All rights reserved.
-  </footer>
-
-</body>
-</html>
-<div class="logo-cube p-0 bg-transparent shadow-none">
-  <img src="f9f9288f-3f17-4126-8a58-d1f4a74af1a7.png" alt="D'zero ロゴ" class="h-12 w-auto">
-</div>
+.logo-cube {
+    width: auto;
+    height: auto;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
